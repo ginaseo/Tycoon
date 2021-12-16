@@ -4,7 +4,7 @@ public class TycoonGame {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //GamePanel gp = new GamePanel();
+        GamePanel gp = new GamePanel();
 
         while (true) {
             System.out.println("=== Bungeoppang Tycoon Game ===");
@@ -23,6 +23,7 @@ public class TycoonGame {
                     System.out.println("");
                     System.out.println("The game starts!");
                     //gp.startGame();
+                    gp.timer();
                     break;
                 case 2:
                     System.out.println("");
