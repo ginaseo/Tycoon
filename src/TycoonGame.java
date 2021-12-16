@@ -4,7 +4,7 @@ public class TycoonGame {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        GamePanel gp = new GamePanel();
+        //GamePanel gp = new GamePanel();
 
         while (true) {
             System.out.println("=== Bungeoppang Tycoon Game ===");
@@ -20,23 +20,30 @@ public class TycoonGame {
 
             switch (input) {
                 case 1:
+                    System.out.println("");
                     System.out.println("The game starts!");
-                    gp.startGame();
+                    //gp.startGame();
                     break;
                 case 2:
+                    System.out.println("");
                     System.out.println("Manual");
                     break;
                 case 3:
+                    System.out.println("");
                     System.out.println("Options");
                     break;
                 case 4:
+                    System.out.println("");
                     System.out.println("Credits:ginaseo");
                     break;
                 case 5:
+                    System.out.println("");
                     System.out.println("The game will now exit.");
                     System.exit(0);
                 default:
+                    System.out.println("");
                     System.out.println("Please enter a number less than 6");
+                    System.out.println("");
             }
 
 
